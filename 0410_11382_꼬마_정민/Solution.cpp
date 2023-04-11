@@ -16,7 +16,7 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	//숫자 3개를 A, B, C 순으로 받아서 설정한다.
+	//숫자 3개를 A, B, C 순으로 받아서 설정한다. int로 하기에는 int의 제한은 –2,147,483,648 ~ 2,147,483,647 로 매우 부족하기에 long long으로 범위를 매우 크게 늘려서 사용하였다.
 	long long A, B, C;
 	cin >> A >> B >> C;
 
