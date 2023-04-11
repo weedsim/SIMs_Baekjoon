@@ -28,6 +28,7 @@ A+B+C의 값을 출력한다.
 7931
 ```
 
+- 출처 : [백준 사이트] (https://www.acmicpc.net/problem/11382)
 
 # 문제 풀이 방식
 
