@@ -68,7 +68,7 @@ f(n), c, n0가 O(n) 정의를 만족하면 1, 아니면 0을 출력한다.
 
 ### f(n) = 7n + 7, g(n) = n, c = 8, n0 = 10이다. 모든 n ≥ 10에 대하여 7n + 7 ≤ 8n 이므로 O(n) 정의를 만족한다.
 
-- 출처 : [백준 사이트] (https://www.acmicpc.net/problem/24312)
+- 출처 : [백준 사이트](https://www.acmicpc.net/problem/24312)
 
 
 # 문제 풀이 방식
