@@ -27,7 +27,7 @@ int main()
 
 	for (int i = 0; i < N && S > 0; i++) {
 		int maxPos = i;
-		for (int j = i + 1; j < N && j <= i + S; j++) {
+		for (int j = i; j < N && j <= i + S; j++) {
 			if (arr[j] > arr[maxPos]) {
 				maxPos = j;
 			}
