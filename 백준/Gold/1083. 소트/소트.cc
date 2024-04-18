@@ -26,16 +26,25 @@ int main()
 	cin >> S;
 
 	for (int i = 0; i < N && S > 0; i++) {
+
 		int maxPos = i;
+
 		for (int j = i; j < N && j <= i + S; j++) {
+
 			if (arr[j] > arr[maxPos]) {
 				maxPos = j;
 			}
+
 		}
+
 		for (int k = maxPos; k > i; k--) {
+
 			swap(arr[k], arr[k - 1]);
+
+			S--;
+
 		}
-		S -= (maxPos - i);
+
 	}
 
 	for (int i = 0; i < N; i++) {
