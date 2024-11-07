@@ -4,11 +4,7 @@
 #include <iostream> 
 // 편의를 위해 존재하고 있다.
 #include <algorithm>
-#include <cstdlib>
 #include <cmath>
-// 임시 저장용도
-#include <vector>
-#include <queue>
 // 일반적으로 std 를 붙여가면서 할 것을 미리 명시하는 방식으로 편의를 위해 존재한다.
 using namespace std;
 
